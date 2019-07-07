@@ -73,7 +73,7 @@
         </h1>
         <div class="subheading mb-5">Engineer · Embedded Systems · Control Systems · Robotics · Software
         </div>
-        <p class="lead mb-5">I am a Software Engineer trying to provide solutions related to Embedded Hardware and Software. What drives me is the opportunity to leverage my skills in order to learn something new and create something new.</p>
+        <p class="lead mb-5">I am an Electronics and Communication Engineer. I really enjoy Control Systems, Signal Processing, and Embedded Systems. I find it fascinating how the purely mathematical concepts when paired with a physical interpretation within some context can bring out so much information and understanding about the systems. I’m talking about the family of Fourier Series and Transforms, the Transfer Functions, the Root Locus Plots, etc.        Basically I like to understand the world with the help of mathematics, and in the process, possibly create new things that will help the world out.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/shrsulav">
             <i class="fab fa-linkedin-in"></i>
@@ -105,10 +105,12 @@
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                   <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white">
-                      <i class="fas fa-plus fa-3x"></i>
+                        <div class="project-name">
+                          Implementation of nano-satellite software using FreeRTOS kernel
+                        </div>
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+                  <img class="img-fluid" src="img/portfolio/nanosat_pindiagram.png" alt="">
                 </div>
               </div>
       
@@ -117,62 +119,61 @@
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                   <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white">
-                      <i class="fas fa-plus fa-3x"></i>
+                      <div class="project-name">
+                        Attitude Determination Algorithm using Kalman Filter
+                      </div>
                     </div>
                   </div>
-                  <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+                  <img class="img-fluid" src="img/portfolio/attdet.JPG" alt="">
                 </div>
               </div>
       
               <!-- Portfolio Item 3 -->
+              <!--
               <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                   <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white">
-                      <i class="fas fa-plus fa-3x"></i>
+                      <div class="project-name">
+                        2D Indoor Mapping using Laser Range Finder
+                      </div>
                     </div>
                   </div>
                   <img class="img-fluid" src="img/portfolio/circus.png" alt="">
                 </div>
               </div>
-      
+            -->
               <!-- Portfolio Item 4 -->
+              <!--
               <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                   <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white">
-                      <i class="fas fa-plus fa-3x"></i>
+                      <div class="project-name">
+                        PID Control of Inverted Pendulum
+                      </div>
                     </div>
                   </div>
                   <img class="img-fluid" src="img/portfolio/game.png" alt="">
                 </div>
               </div>
-      
+            -->
               <!-- Portfolio Item 5 -->
+              <!--
               <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                   <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white">
-                      <i class="fas fa-plus fa-3x"></i>
+                      <div class="project-name">
+                        Reinforced Learning Control of Inverted Pendulum
+                      </div>
                     </div>
                   </div>
                   <img class="img-fluid" src="img/portfolio/safe.png" alt="">
                 </div>
               </div>
       
-              <!-- Portfolio Item 6 -->
-              <div class="col-md-6 col-lg-4">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                  <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                    <div class="portfolio-item-caption-content text-center text-white">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-                </div>
-              </div>
-      
-            </div>
+            -->
             <!-- /.row -->
       
           </div>
@@ -227,7 +228,7 @@
               <div class="row justify-content-center">
                 <div class="col-lg-8">
                   <!-- Portfolio Modal - Title -->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Implementation of nano-satellite software using FreeRTOS kernel</h2>
                   <!-- Icon Divider -->
                   <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -237,9 +238,9 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image -->
-                  <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
+                  <img class="img-fluid rounded mb-5" src="img/portfolio/nanosat_blockdiagram.png" alt="">
                   <!-- Portfolio Modal - Text -->
-                  <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                  <p class="mb-5">As part of my Final Year Engineering Project, I took up the project to implement the overall software of the STUDSAT-2 nanosatellite. The implementation consists of writing device drivers for satellite sensors and actuators like Magnetometer, Reaction Wheels, GPS, etc. and designing the tasks/processes for the satellite as per the FreeRTOS kernel. The software was implemented and tested in STM32F4-Discovery Microcontroller Board. The context switching of tasks was monitored using Tracealyzer software.</p>
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
@@ -266,7 +267,7 @@
               <div class="row justify-content-center">
                 <div class="col-lg-8">
                   <!-- Portfolio Modal - Title -->
-                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Attitude Determination Algorithm using Kalman Filter</h2>
                   <!-- Icon Divider -->
                   <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -276,9 +277,9 @@
                     <div class="divider-custom-line"></div>
                   </div>
                   <!-- Portfolio Modal - Image -->
-                  <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
+                  <img class="img-fluid rounded mb-5" src="img/portfolio/attdet.JPG" alt="">
                   <!-- Portfolio Modal - Text -->
-                  <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                  <p class="mb-5">I undertook this project as a part of my Engineering Internship Program. In this project, I implemented the algorithm in STM32F4-Discovery Board using C Programming Language. I verified the correctness of the implementation by comparing the results from the software running in the microcontroller with the software simulated in Matlab. The highlight of the project for me was learning about Kalman Filters.</p>
                   <button class="btn btn-primary" href="#" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
                     Close Window
